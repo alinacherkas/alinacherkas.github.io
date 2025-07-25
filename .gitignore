@@ -1,5 +1,6 @@
 # Quarto
 /.quarto/
+/docs/
 
 # Custom
 .DS_Store
