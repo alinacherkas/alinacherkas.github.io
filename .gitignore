@@ -1,1 +1,5 @@
+# Quarto
 /.quarto/
+
+# Custom
+.DS_Store
