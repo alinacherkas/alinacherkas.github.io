@@ -1,5 +1,6 @@
 # Quarto
 /.quarto/
+**/*.quarto_ipynb
 /docs/
 
 # Custom
