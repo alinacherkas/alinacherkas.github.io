@@ -1,9 +1,77 @@
-# minimal brand.yml enabling dark mode
-# replace with your brand colors, logos, and typography!
 color:
-  background:
-    light: "#fff"
-    dark: "#000"
-  foreground:
-    light: "#000"
-    dark: "#fff"
+  palette:
+    white: "#FEFCFB"
+    black: "#252422"
+    blue: "#197bbd"
+    indigo: "#4D4C7D"
+    purple: "#A084DC"
+    pink: "#E9B2BC"
+    red: "#9E2A2B"
+    orange: "#EE6C4D"
+    yellow: "#FCCA46"
+    green: "#2C6E49"
+    teal: "#008C7C"
+    cyan: "#00B4D8"
+    gray-500: "#ADB5BD"
+    emerald: "#50C878"
+  foreground: black
+  background: white
+  primary: white
+  secondary: white
+  tertiary: white
+  success: green
+  info: blue
+  warning: orange
+  danger: red
+  light: white
+  dark: indigo
+
+typography:
+  fonts:
+    - family: Noto Sans
+      source: bunny
+    - family: Noto Sans Mono
+      source: bunny
+    - family: Ysabeau
+      source: bunny
+    - family: Expletus Sans
+      source: bunny
+  base:
+    family: Noto Sans
+    size: 1rem
+    line-height: 1.25
+    weight: 400
+  headings:
+    family: Expletus Sans
+    weight: 600
+    style: normal
+    line-height: 1.3
+    color: teal
+  monospace:
+    family: Noto Sans Mono
+    size: 0.9rem
+    weight: 400
+  monospace-inline:
+    size: 1rem
+  link:
+    weight: 400
+    color: teal
+    decoration: underline
+
+defaults:
+  bootstrap:
+    rules: |
+      #quarto-header {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .navbar-title {
+        font-family: Expletus Sans;
+        place-self: center;
+        background: linear-gradient(90deg, $brand-emerald, $brand-teal, $brand-emerald) -100%/ 200%;
+        background-clip: text;
+        color: transparent;
+        animation: shimmer 2s linear infinite
+      }
+
+      @keyframes shimmer { to { background-position: 100%; } }
