@@ -6,6 +6,7 @@ brand: _extensions/my-brand-yml/brand.yml
 
 website:
   title: "Alina Cherkas"
+  favicon: favicon.png
   navbar:
     right:
       - posts.qmd
