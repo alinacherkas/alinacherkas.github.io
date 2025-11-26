@@ -8,8 +8,9 @@ website:
   title: "Alina Cherkas"
   favicon: favicon.png
   navbar:
-    right:
+    left:
       - posts.qmd
+    right:
       - icon: github
         href: https://github.com/alinacherkas
 format: html
