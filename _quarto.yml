@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: docs
 
+brand: _extensions/my-brand-yml/brand.yml
+
 website:
   title: "Alina Cherkas"
   navbar:
@@ -9,9 +11,4 @@ website:
       - posts.qmd
       - icon: github
         href: https://github.com/alinacherkas
-format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+format: html
