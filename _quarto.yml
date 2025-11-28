@@ -10,6 +10,7 @@ website:
   navbar:
     left:
       - posts.qmd
+      - about.qmd
     right:
       - icon: github
         href: https://github.com/alinacherkas

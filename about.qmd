@@ -1,0 +1,12 @@
+---
+title: "About"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/alinacherkas
+
+---
+
+About this blog
