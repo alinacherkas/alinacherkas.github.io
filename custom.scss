@@ -3,3 +3,47 @@
 /*-- scss:defaults --*/
 
 /*-- scss:rules --*/
+.center-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cursor {
+    max-width: fit-content;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typewriter {
+    width: 0;
+    /* Start hidden */
+    animation:
+        typewriter 5s steps(50) 1s forwards,
+        blinkingCursor 1s steps(1) infinite;
+    display: inline-block;
+    border-right: 0.1em solid #008C7C;
+}
+
+.cursor p {
+    margin: 0;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkingCursor {
+    50% {
+        border-right-color: transparent;
+    }
+}
