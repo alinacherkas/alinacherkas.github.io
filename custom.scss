@@ -100,6 +100,53 @@
     }
 }
 
-h2 a {
-    text-decoration: none;
+
+#landing-links h2 {
+    border: none;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.emphasise {
+    display: inline-block;
+    position: relative;
+    padding: 0 2px 5px;
+    color: initial;
+    transition: color 0.3s ease;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 4px;
+        transform: skew(-25deg);
+        background: $brand-teal;
+        z-index: -1;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0;
+        background: $brand-teal;
+        transition: height 0.3s ease;
+        z-index: -2;
+    }
+
+    &:hover {
+        color: white;
+    }
+
+    &:hover {
+        &:after {
+            height: 100%;
+        }
+    }
 }

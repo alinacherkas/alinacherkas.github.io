@@ -6,18 +6,18 @@ Hi there! Welcome to my personal website.
 
 :::
 
-::: {.grid .auto-appear .text-center}
+::: {#landing-links .grid .auto-appear .text-center}
 
 ::: {.g-col-4 .align-self-center}
-## [About Me](about.qmd)
+## [About Me](about.qmd){.emphasise}
 :::
 
 ::: {.g-col-4 .align-self-center}
-## [My Projects](projects.qmd)
+## [My Projects](projects.qmd){.emphasise}
 :::
 
 ::: {.g-col-4 .align-self-center}
-## [Blog Posts](posts.qmd)
+## [Blog Posts](posts.qmd){.emphasise}
 :::
 
 :::
