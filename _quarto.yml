@@ -15,4 +15,8 @@ website:
     right:
       - icon: github
         href: https://github.com/alinacherkas
-format: html
+format:
+  html:
+    theme: 
+      - custom.scss
+      - brand
