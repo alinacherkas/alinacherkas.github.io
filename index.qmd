@@ -11,3 +11,19 @@ Hi there! Welcome to my personal website.
 :::
 
 :::
+
+::: {.grid .auto-appear .text-center}
+
+::: {.g-col-4 .align-self-center}
+## [About Me](about.qmd)
+:::
+
+::: {.g-col-4 .align-self-center}
+## [My Projects](projects.qmd)
+:::
+
+::: {.g-col-4 .align-self-center}
+## [Blog Posts](posts.qmd)
+:::
+
+:::

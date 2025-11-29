@@ -71,3 +71,37 @@
         border-right-color: transparent;
     }
 }
+
+.auto-appear {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transform-origin: 0% 50%;
+    /* Scale from center-left */
+    transition:
+        opacity 0.3s ease-out,
+        transform 0.3s ease-out;
+    animation: appear 1s 7s both;
+    will-change: transform, opacity;
+}
+
+@keyframes appear {
+    0% {
+        height: 0;
+    }
+
+    10% {
+        height: 100%;
+        transform: scaleX(0.4);
+    }
+
+    100% {
+        opacity: 1;
+        height: 100%;
+        transform: scaleX(1);
+    }
+}
+
+h2 a {
+    text-decoration: none;
+}
