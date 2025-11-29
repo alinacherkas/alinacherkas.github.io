@@ -9,6 +9,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    animation: disappear 1s ease 6s forwards;
 }
 
 .cursor {
@@ -39,6 +40,19 @@
 
     to {
         width: 100%;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+
+    100% {
+        opacity: 0;
+        clip-path: inset(0 100% 0 0);
+        display: none;
     }
 }
 
