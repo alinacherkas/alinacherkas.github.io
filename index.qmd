@@ -1,3 +1,9 @@
+---
+format: 
+  html:
+    css: custom.scss
+---
+
 ::: {.center-page}
 
 ::: {.cursor .typewriter}
