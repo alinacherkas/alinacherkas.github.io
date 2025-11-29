@@ -1,0 +1,7 @@
+---
+title: "Projects"
+---
+
+::: {.callout-note}
+There is no content for this page yet. But it will be added soon.
+:::

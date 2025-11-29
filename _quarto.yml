@@ -9,6 +9,7 @@ website:
   favicon: favicon.png
   navbar:
     left:
+      - projects.qmd
       - posts.qmd
       - about.qmd
     right:
