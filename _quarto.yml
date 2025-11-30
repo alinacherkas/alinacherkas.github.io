@@ -10,7 +10,8 @@ website:
   navbar:
     left:
       - projects.qmd
-      - posts.qmd
+      - text: "Blog"
+        href: posts.qmd
       - about.qmd
     right:
       - icon: github
