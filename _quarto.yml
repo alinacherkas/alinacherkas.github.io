@@ -1,8 +1,7 @@
 project:
   type: website
   output-dir: docs
-
-brand: _extensions/my-brand-yml/brand.yml
+  brand: _extensions/my-brand-yml/brand.yml
 
 website:
   title: "Alina Cherkas"
