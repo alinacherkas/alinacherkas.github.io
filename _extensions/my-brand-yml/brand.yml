@@ -16,7 +16,7 @@ color:
     emerald: "#50C878"
   foreground: black
   background: white
-  primary: white
+  primary: teal
   secondary: white
   tertiary: white
   success: green
@@ -60,6 +60,10 @@ typography:
 
 defaults:
   bootstrap:
+    defaults:
+      navbar-fg: $brand-black
+      navbar-bg: $brand-white
+      navbar-hl: $brand-teal
     rules: |
       #quarto-header {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
