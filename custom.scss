@@ -150,3 +150,12 @@
         }
     }
 }
+
+// fix the blog page
+h1.title {
+    color: $brand-teal;
+}
+
+h3.listing-title a {
+    @extend .emphasise;
+}
