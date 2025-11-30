@@ -107,6 +107,11 @@
     a {
         text-decoration: none;
     }
+
+    // remove automatically added anchor links
+    a+.anchorjs-link {
+        display: none;
+    }
 }
 
 .emphasise {
