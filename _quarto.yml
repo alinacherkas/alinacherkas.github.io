@@ -3,9 +3,15 @@ project:
   output-dir: docs
   brand: _extensions/my-brand-yml/brand.yml
 
+language: 
+  search-text-placeholder: Type to search
+
 website:
   title: "Alina Cherkas"
   favicon: favicon.png
+  search: 
+    location: navbar
+    type: overlay
   navbar:
     left:
       - about.qmd
