@@ -16,6 +16,7 @@ website:
     right:
       - icon: github
         href: https://github.com/alinacherkas
+  page-footer: "© 2025 Alina Cherkas. All Rights Reserved." 
 format:
   html:
     theme: 
