@@ -132,6 +132,11 @@
         background: $brand-teal;
         z-index: -1;
     }
+}
+
+
+.emphasise-hover {
+    @extend .emphasise;
 
     &::after {
         content: "";
@@ -162,5 +167,5 @@ h1.title {
 }
 
 h3.listing-title a {
-    @extend .emphasise;
+    @extend .emphasise-hover;
 }
