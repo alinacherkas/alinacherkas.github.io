@@ -8,7 +8,9 @@ language:
 
 website:
   title: "Alina Cherkas"
+  description: "Data professional sharing thoughts on data analytics, data visualisation, data engineering, computer vision and evidence-driven decision-making."
   favicon: favicon.png
+  site-url: https://alina.site
   search: 
     location: navbar
     type: overlay
@@ -21,7 +23,11 @@ website:
     right:
       - icon: github
         href: https://github.com/alinacherkas
-  page-footer: "© 2025 Alina Cherkas. All Rights Reserved." 
+  page-footer: "© 2025 Alina Cherkas. All Rights Reserved."
+  image: https://storage.alina.site/profile.jpeg
+  image-alt: "Alina's photo"
+  open-graph: true
+  twitter-card: true
 format:
   html:
     theme: 
