@@ -1,6 +1,11 @@
 ---
 title: "Welcome To My Blog"
-date: "2025-07-22"
+date: "2025-12-08"
+image: https://storage.alina.site/blog/markus-winkler-kA7zREkzrBw-unsplash.jpg
 ---
 
-This is the first post in a Quarto blog. Welcome!
+I plan to use this space to share my thoughts about [data science tools and practices]{.emphasise} that I find interesting and useful. You can expect to see topics ranging from data analytics and visualisation to computer vision – with an emphasis on [applications for social good]{.emphasise}.
+
+Also, I commit to post [original content]{.emphasise} with a minimal and ethical use of GenAI.
+
+Stay tuned for more!
