@@ -2,11 +2,31 @@
 title: "About"
 about:
   template: jolla
+  image: https://storage.alina.site/profile.jpeg
   links:
     - icon: github
       text: GitHub
       href: https://github.com/alinacherkas
-
+    - icon: envelope-at
+      text: Email
+      href: mailto:contact@alina.site
 ---
 
-About this blog
+::: {style="text-align: justify; line-height: 1.5;"}
+Hi! My name is Alina. I am a data professional, specialising in [
+  <span>data analytics</span>
+  <span>data visualisation</span>
+  <span>data engineering</span>
+  <span>computer vision</span>
+  <span>databases</span>
+  <span>web applications</span>
+  <span>all things data, actually</span>
+]{.rotating}. At present, I work as a consultant in the United Nations system, building data products to advance evidence-based decision-making. I program in Python and sometimes in R, and also occasionally contribute to open-source projects.
+
+In addition to my two master's degrees in quantitative social sciences, I hold an [MSc in Big Data]{.emphasise} and Professional Diploma in [Artificial Intelligence for Computer Vision]{.emphasise}. I am currently pursuing a [PhD at Vrije Universiteit Amsterdam]{.emphasise} in the Netherlands. My research project focuses on applying computer vision to satellite imagery and geospatial data for the Sustainable Development Goals monitoring.
+
+Originally from Ukraine, I now live in Southern Europe ☀️. Outside of work, I enjoy hiking, running, and exploring new places.
+
+Follow me on GitHub or get in touch with me using the links below.
+:::
+

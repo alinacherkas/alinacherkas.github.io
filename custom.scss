@@ -169,3 +169,89 @@ h1.title {
 h3.listing-title a {
     @extend .emphasise-hover;
 }
+
+
+.about-image {
+    border-radius: 20% !important; // round corners
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 10px 10px 20px 10px $brand-teal;
+    }
+}
+
+
+.rotating {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: 1em;
+
+    span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        white-space: nowrap;
+
+        @for $i from 1 through 6 {
+            &:nth-child(#{$i}) {
+                animation: rotate 14s ease-in-out;
+                animation-delay: ($i - 1) * 2s;
+            }
+        }
+
+        &:last-child {
+            animation: rotate-last 14s ease-in-out 12s forwards;
+        }
+    }
+
+    &::after {
+        content: "all things data, actually--"; // adjust to fit the longest word
+        visibility: hidden;
+        display: block;
+    }
+}
+
+@keyframes rotate {
+
+    0%,
+    15% {
+        opacity: 0;
+        clip-path: inset(0 100% 0 0);
+    }
+
+    20%,
+    30% {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+        color: white;
+        background-color: $brand-teal;
+        padding: 0 5px;
+    }
+
+    35%,
+    100% {
+        opacity: 1;
+        clip-path: inset(0 100% 0 0);
+    }
+}
+
+@keyframes rotate-last {
+
+    0%,
+    15% {
+        opacity: 0;
+        clip-path: inset(0 100% 0 0);
+    }
+
+    20%,
+    100% {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+        color: white;
+        background-color: $brand-teal;
+        padding: 0 5px;
+    }
+}
