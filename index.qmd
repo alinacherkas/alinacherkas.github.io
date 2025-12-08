@@ -13,7 +13,7 @@ Hi there! Welcome to my personal website.
 :::
 
 ::: {.g-col-4 .align-self-center}
-## [My Projects](projects.qmd){.emphasise-hover}
+## [Project Portfolio](projects.qmd){.emphasise-hover}
 :::
 
 ::: {.g-col-4 .align-self-center}
