@@ -16,10 +16,10 @@ website:
     type: overlay
   navbar:
     left:
-      - about.qmd
-      - projects.qmd
+      - about/index.qmd
+      - projects/index.qmd
       - text: "Blog"
-        href: posts.qmd
+        href: posts/index.qmd
     right:
       - icon: github
         href: https://github.com/alinacherkas

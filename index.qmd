@@ -9,15 +9,15 @@ Hi there! Welcome to my personal website.
 ::: {#landing-links .grid .auto-appear .text-center}
 
 ::: {.g-col-4 .align-self-center}
-## [About Me](about.qmd){.emphasise-hover}
+## [About Me](about/index.qmd){.emphasise-hover}
 :::
 
 ::: {.g-col-4 .align-self-center}
-## [Project Portfolio](projects.qmd){.emphasise-hover}
+## [Project Portfolio](projects/index.qmd){.emphasise-hover}
 :::
 
 ::: {.g-col-4 .align-self-center}
-## [Blog Posts](posts.qmd){.emphasise-hover}
+## [Blog Posts](posts/index.qmd){.emphasise-hover}
 :::
 
 :::
