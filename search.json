@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Note\n\n\n\nThere is no content for this page yet. But it will be added soon."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
     "title": "About",
     "section": "",
     "text": "Hi! My name is Alina. I am a data professional, specialising in data analytics data visualisation data engineering computer vision databases web applications all things data, actually. At present, I work as a consultant in the United Nations system, building data products to advance evidence-based decision-making. I program in Python and sometimes in R, and also occasionally contribute to open-source projects.\nIn addition to my two master’s degrees in quantitative social sciences, I hold an MSc in Big Data and Professional Diploma in Artificial Intelligence for Computer Vision. I am currently pursuing a PhD at Vrije Universiteit Amsterdam in the Netherlands. My research project focuses on applying computer vision to satellite imagery and geospatial data for the Sustainable Development Goals monitoring.\nOriginally from Ukraine, I now live in Southern Europe ☀️. Outside of work, I enjoy hiking, running, and exploring new places.\nFollow me on GitHub or get in touch with me using the links below."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "I plan to use this space to share my thoughts about data science tools and practices that I find interesting and useful. You can expect to see topics ranging from data analytics and visualisation to computer vision – with an emphasis on applications for social good.\nAlso, I commit to post original content with a minimal and ethical use of GenAI.\nStay tuned for more!"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Note\n\n\n\nThere is no content for this page yet. But it will be added soon."
   },
   {
     "objectID": "index.html",
@@ -42,15 +49,8 @@
     "text": "Blog Posts"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "I plan to use this space to share my thoughts about data science tools and practices that I find interesting and useful. You can expect to see topics ranging from data analytics and visualisation to computer vision – with an emphasis on applications for social good.\nAlso, I commit to post original content with a minimal and ethical use of GenAI.\nStay tuned for more!"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
     "title": "Posts",
     "section": "",
     "text": "Welcome To My Blog\n\n\n\n\n\n\n\n\nDec 8, 2025\n\n\nAlina Cherkas\n\n\n\n\n\nNo matching items"

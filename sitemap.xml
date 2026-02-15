@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://alina.site/projects.html</loc>
-    <lastmod>2025-12-08T20:27:31.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alina.site/about.html</loc>
-    <lastmod>2025-12-08T20:27:31.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://alina.site/index.html</loc>
-    <lastmod>2025-12-08T20:27:31.592Z</lastmod>
+    <loc>https://alina.site/about/index.html</loc>
+    <lastmod>2026-02-15T18:35:07.262Z</lastmod>
   </url>
   <url>
     <loc>https://alina.site/posts/welcome/index.html</loc>
-    <lastmod>2025-12-08T20:27:31.593Z</lastmod>
+    <lastmod>2026-02-15T18:35:07.263Z</lastmod>
   </url>
   <url>
-    <loc>https://alina.site/posts.html</loc>
-    <lastmod>2025-12-08T20:27:31.592Z</lastmod>
+    <loc>https://alina.site/projects/index.html</loc>
+    <lastmod>2026-02-15T18:35:07.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alina.site/index.html</loc>
+    <lastmod>2026-02-15T18:35:07.262Z</lastmod>
+  </url>
+  <url>
+    <loc>https://alina.site/posts/index.html</loc>
+    <lastmod>2026-02-15T18:35:07.263Z</lastmod>
   </url>
 </urlset>
